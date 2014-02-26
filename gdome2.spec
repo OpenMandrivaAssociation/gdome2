@@ -14,6 +14,7 @@ Patch0:		gdome2-0.8.1-gdome-config_lib64.diff
 Patch1:		gdome2-0.8.1-fix-str-fmt.patch
 Patch2:		gdome2-0.8.1-libxml2.patch
 BuildRequires:	intltool
+BuildRequires:	pkgconfig(glib)
 BuildRequires:	pkgconfig(glib-2.0)
 BuildRequires:	pkgconfig(libxml-2.0)
 
