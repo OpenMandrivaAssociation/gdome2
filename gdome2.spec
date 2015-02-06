@@ -5,7 +5,7 @@
 Summary:	A DOM level2 library for accessing XML files
 Name:		gdome2
 Version:	0.8.1
-Release:	11
+Release:	12
 License:	LGPLv2.1+
 Group:		System/Libraries
 URL:		http://gdome2.cs.unibo.it
