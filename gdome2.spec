@@ -13,6 +13,11 @@ Source0:	http://gdome2.cs.unibo.it/tarball/%{name}-%{version}.tar.bz2
 Patch0:		gdome2-0.8.1-gdome-config_lib64.diff
 Patch1:		gdome2-0.8.1-fix-str-fmt.patch
 Patch2:		gdome2-0.8.1-libxml2.patch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	intltool
 BuildRequires:	pkgconfig(glib)
 BuildRequires:	pkgconfig(glib-2.0)
